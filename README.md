@@ -12,7 +12,7 @@ The primary use is to make programmers' lives easier. Mostly to cut down on the 
 Some simplified examples of instructions and the source lines bellow.
 
 PRINT PARAM -> print(str(param1))
-READ INPUT PRINT -> 
+READ INPUT PRINT -> print(raw_input(''))
 
 The template files are there to help place the required control structures such as indentations in Python and braces with enclosed blocks in C. Clearly some book-keeping will be required to keep track of the nested stuff and the variable tables with predeclared strong types if applicable. The maintainer is strong advocate of no-recursion and stack structures. Deep stack traces and tons of instances of the same recursive variable instantiations are not fun to debug. This is in line with overall goal of simplifying and lowering the concentration requirements of the mundane programming.
 
